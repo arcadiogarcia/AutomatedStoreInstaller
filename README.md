@@ -1,7 +1,9 @@
 # AutomatedStoreInstaller
-A powershell script to automate installation of a  list of Microsoft Store apps.
+A powershell script to automate the installation of a list of Microsoft Store apps.
 
-It launches deep links into each of the app pages, and sends a keystoke to press the install button.
+It launches deep links into each of the app pages, and sends a keystoke to press the install button. (Thanks to whoever gave that button the initial focus!)
+
+Caveats: Don't interact with the computer while the script runs. If the app is already installed, it will be launched. Oops!
 
 Usage:
 ``` powershell
